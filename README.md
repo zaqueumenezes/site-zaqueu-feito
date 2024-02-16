@@ -11,4 +11,4 @@
 
  <h3>Desktop</h3>
  <br>
- <img src=""/>
+ <img src="https://github.com/zaqueumenezes/site-zaqueu-feito/blob/main/devclub.jpg?raw=true"/>
