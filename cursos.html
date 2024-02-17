@@ -8,14 +8,11 @@
     <meta name="keywords" content="HTML5, CSS3">
     <style>
 body {
-    display: flex;
-    /* height: 100vh;
-    width: 100vw; */
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 .content__pg2 {
     /*max-width: 660px;
@@ -34,25 +31,35 @@ body {
     opacity: 0;
     transition: 3s;
     border: 1px solid black;
-    margin-right: 86px;
+    margin-left: 202px;
     min-width: 396px;
+    width: 75%;
 }
 
-p {
-    margin: 0 40px 0 0;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
 
 .cursos-pg2:hover {
     opacity: 1;
     transition: 3s;
 }
 
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
 .pg2-curso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 1290px;
+    width: 90%;
+    margin: auto;
+    gap: 9px;
 }
 
 .pg2-curso img {
@@ -70,18 +77,24 @@ a {
     letter-spacing: 1px;
     font-weight: bolder;
     text-decoration: none;
-    padding: 0 600px 0 560px;
     line-height: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 
 footer {
-   background-color: rgba(0, 0, 0, .8);
-    /* padding: 10px; */
+   /* background-color: rgba(0, 0, 0, .8);
+    padding: 10px;
     text-align: center;
-    margin-right: 84px;
-    /* display: block; */
-    min-width: 200px;
+    display: flex;
+    max-width: 11px;
+    min-width: 385px;
+    width: 100%;
+    margin: auto; */
+    background-color: rgba(0, 0, 0, .8);
+    width: 1219px;
+    margin: 0 0 0 210px;
 }
 </style>
     <title>Cursos</title>
