@@ -121,3 +121,32 @@ article p {
     width: 68%;
     max-width: 798px;
 }
+
+@media screen and (max-width: 900px){
+    .hero {
+        width: 98vw;
+        margin: auto;
+        height: 50%;
+        padding: 0;
+        background-image: url(sizacapro.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        flex-wrap: wrap-reverse;
+        gap: 10px;
+    }
+
+    .link {
+        margin: auto;
+    }
+
+    .hero-content p{
+        margin-bottom: 50px;
+    }
+}
